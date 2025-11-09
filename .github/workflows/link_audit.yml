@@ -1,0 +1,17 @@
+name: Quarterly Link Audit
+on:
+  schedule:
+    - cron: "0 9 1 */6 *"
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Open link audit issue
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "🔗 Quarterly Link Audit"
+          content-filepath: .github/ISSUE_TEMPLATES/link_audit.md
+          labels: maintenance

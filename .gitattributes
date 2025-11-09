@@ -1,0 +1,14 @@
+scripts/**            license=MIT
+**/*.py               license=MIT
+**/*.ipynb            license=MIT
+**/Makefile           license=MIT
+**/Dockerfile         license=MIT
+**/*.sh               license=MIT
+
+README.md             license=CC-BY-4.0
+CONTRIBUTING.md       license=CC-BY-4.0
+CITATION.cff          license=CC-BY-4.0
+paper/**              license=CC-BY-4.0
+docs/**               license=CC-BY-4.0
+data/**               license=CC-BY-4.0
+resources/**          license=CC-BY-4.0
