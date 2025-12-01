@@ -7,8 +7,9 @@
 ![Last Updated](https://img.shields.io/badge/last%20updated-November%202025-lightgrey.svg)
 
 This repository accompanies the paper  
-> **Generative AI for Tactile Accessibility: A Systematic Literature Review of Emerging Methods and Gaps**  
-*Authors TBD*  
+> **Generative AI for Tactile Accessibility: A Systematic Literature Review of Emerging Methods and Gaps**  [under review]
+
+*Authors: Adnan Khan, Abbas Akkasi, Darya Taratynova, Majid Komeili*  
 
 It serves as a **living resource** that tracks research, datasets, and tools at the intersection of **Generative AI** and **tactile accessibility for blind and low-vision (BLV)** users.
 
@@ -51,6 +52,18 @@ Add new papers, tools, or resources by opening a Pull Request.
 | 2021 | [Visual-Tactile Cross-Modal Data Generation Using Residue-Fusion GAN with Feature-Matching and Perceptual Losses](https://doi.org/10.1109/LRA.2021.3095925)<br/>[DOI](https://doi.org/10.1109/LRA.2021.3095925) · [arXiv](https://arxiv.org/abs/2107.05468) · [PDF](https://ieeexplore.ieee.org/document/9479777/) | Cai, Shaoyu; Zhu, Kening; Ban, Yuki; Narumi, Takuji | IEEE Robotics and Automation Letters | journal | gan; vibrotactile; texture-generation; user-study | GAN-based cross-modal synthesis between visual textures and vibrotactile feedback. |
 | 2019 | [Generating Vibrotactile Patterns from Texture Images Using Conditional GANs](https://doi.org/10.1007/978-3-319-93399-3_3)<br/>[DOI](https://doi.org/10.1007/978-3-319-93399-3_3) · [arXiv](https://arxiv.org/abs/1902.07480) · [PDF](https://link.springer.com/chapter/10.1007/978-3-319-93399-3_3) | Ujitoko, Yuki; Ban, Yoshinori | International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (EuroHaptics) | conference | gan; vibrotactile; user-study | Early conditional GAN generating vibrotactile signals from texture images or attributes. |
 <!-- SELECTED_PAPERS:END -->
+### 📁 Additional Resources
+
+A growing collection of curated materials is available in the **`resources/`** directory of this repository. These files provide practical support for researchers, educators, and designers working on tactile accessibility:
+
+- **books.md** — Key textbooks and reference books on tactile design, accessibility, and non-visual information presentation.  
+- **datasets.md** — Public datasets relevant to tactile graphics, BLV accessibility, and image–to–tactile translation.  
+- **guides.md** — Practical guides, standards summaries, and how-to documents for creating high-quality tactile graphics.  
+- **tools.md** — A list of software tools, libraries, and workflows for generating, editing, and evaluating tactile images.
+
+You can access them here:  
+https://github.com/awesome-tactile-graphics/awesome-tactile-graphics/tree/main/resources
+
 
 ## License
 
@@ -66,6 +79,11 @@ By submitting a pull request, you agree to license your contribution accordingly
 If you use this repository, please cite:
 
 > **Generative AI for Tactile Accessibility: A Systematic Literature Review of Emerging Methods and Gaps**  
-> *Authors TBD*  
-> GitHub Repository: https://github.com/your-org/generative-tactile-ai  
-> DOI: *coming soon*
+> *Authors: Adnan Khan, Abbas Akkasi, Darya Taratynova, Majid Komeili*  
+> *GitHub Repository: https://github.com/awesome-tactile-graphics/awesome-tactile-graphics*  
+> *DOI: coming soon*  
+
+### Acknowledgements
+
+We extend our sincere thanks to the volunteers from the **Intelligent Machines Lab (iML) at Carleton University** for generously contributing their time, insights, and effort to this project.
+
